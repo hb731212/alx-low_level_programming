@@ -1,1 +1,1 @@
-Variable N
+OneLastDigit
