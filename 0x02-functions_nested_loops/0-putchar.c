@@ -1,9 +1,12 @@
-#include <stdio.h>
-
-int _putchar(char c);
-int main(void)
+#include <unistd.h>
+int _putchar(char c)
 {
-	printf("%s\n", "_putchar");
-	return (0);
-}
+	return (write(1, &c, 1));
+#include <unistd.h>
+
+int _putchar(char c)
+{
+	return (write(1, &c, 1));	
+
+}}
 
